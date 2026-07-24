@@ -62,7 +62,7 @@ def get_parser(root_dir='.'):
     # other
     parser.add_argument('--seed', type=int, default=11, help="Seed for splitting the dataset.")
     parser.add_argument('--gpu_id', type=int, default=5, help="Choose the number of GPU.")
-    parser.add_argument("--result_path", type=str, default=os.path.join(root_dir,'results_tsne'), help="result path")
+    parser.add_argument("--result_path", type=str, default=os.path.join(root_dir,'results'), help="result path")
     parser.add_argument("--eval_steps", type=int, default=10)
     parser.add_argument("--save-steps", type=int, default=2000, help="Training: Number of iterations between checkpoints")
     parser.add_argument("--save-logs", type=int, default=0)
