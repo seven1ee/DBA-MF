@@ -1,7 +1,7 @@
 # DBA-MF
 
 ## Abstract
-
+Molecular property prediction plays a crucial role in accelerating drug discovery, yet real-world data scarcity severely limits model generalization. Meta-learning provides an effective solution in molecular property prediction with limited labeled samples. In this paper, Dual-Branch Augmentation Multimodal Few-shot learning (DBA-MF) is proposed for molecular property prediction that integrates information from topological structures and geometric structures. In addition, a dual-branch augmentation module is designed that applies distinct augmentation strategies to the support set and the query set, respectively. Comparative experiments on public benchmarks demonstrate the effectiveness of DBA-MF, with performance surpassing state-of-the-art methods.
 ## Requirements
 
 #### Download projects
